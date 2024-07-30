@@ -1,0 +1,130 @@
+body {
+	margin: 0;
+	background-color: #353535;
+	font-family: 'Roboto', sans-serif;
+	color: #16ca58;
+}
+header {
+	background-color: #1982C4;
+	color: #FC7222;
+	padding: 10px 20px;
+	display: flex;
+    align-items: center; /* Aligner les élèments verticalement */
+    justify-content: space-between; /* Justifier les contenus du bandeau */
+}
+
+header h1 {
+	margin: 0;
+	font-size: 2em;
+	flex-grow: 1;
+	text-align: center;
+	font-family: 'Impact', sans-serif;
+	letter-spacing: 2px;
+	width: 50px;
+	font-size: 40px;
+}
+
+.logo img {
+    height: 80px;
+    margin-right: auto;
+}
+
+footer h2 {
+	margin-bottom: 20px;
+	clear: both;
+	font-family: 'Impact', sans-serif;
+
+}
+
+footer {
+	background-color: #1982c4;
+	color: #fc7222;
+	padding: 20px;
+	display: flex;
+	flex-direction: column; /* Disposer les élèments en colonne */
+}
+
+.ministère img {
+	display: block;
+	max-width: 200px;
+	margin-top: 90px;
+	height: auto;
+	float: left;
+}
+
+.nike img {
+	display: block;
+	max-width: 180px;
+	margin-top: 90px;
+	height: auto;
+	float: left;
+
+}
+
+.decathlon img {
+	display: block;
+	max-width: 200px;
+	margin-top: 90px;
+	height: auto;
+	float: left;
+}
+
+.collaborateurs {
+	display: flex;
+    justify-content: center; /*mettre les images aux centres*/
+    align-items: center; /*centrer image horizontalement*/
+    gap: 10px; /* Espace entre les images */
+    margin-bottom: 20px; /*marge pour séparer avec formulaire */
+}
+
+.social-media {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column; /*mettre en colonne*/
+    align-items: center; /* centrer horizontalement */
+    gap: 10px; /* espace entre element du formulaire */
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column; /*mettre element en colonne */
+    gap: 10px; /* espace entre element formulaire */
+}
+
+.contact-form form label {
+    font-weight: bold;
+}
+
+.contact-form form input, .contact-form form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form form button {
+    padding: 10px;
+    background-color: #1982C4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form form button:hover {
+    background-color: #146c94;
+}
